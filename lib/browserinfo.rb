@@ -1,6 +1,6 @@
 require "browserinfo/version.rb"
 
-module Browserinfo
+class Browserinfo
   # Your code goes here...
 
   def process(info)
