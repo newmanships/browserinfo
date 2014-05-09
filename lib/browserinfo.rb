@@ -7,13 +7,13 @@ module Browserinfo
     content = Hash.new
     if str.include?("Chrome")
       content[:browser] = 'Chrome'
-    elif str.include?("Firefox")
+    elsif str.include?("Firefox")
       content[:browser] = 'Firefox'
-    elif str.include?("Safari")
+    elsif str.include?("Safari")
       content[:browser] = 'Safari'
-    elif str.include?("Explorer")
+    elsif str.include?("Explorer")
       content[:browser] = 'Internet Explorer'
-    elif
+    else
       content[:browser] = 'Not recognized'
     end
 
