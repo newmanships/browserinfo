@@ -3,6 +3,10 @@ require "browserinfo/version"
 module Browserinfo
   # Your code goes here...
   class Browserinfo
+
+  	def initialize
+  		@tagger = Browserinfo.new
+    end
   	
     def process(info)
       content = Hash.new
