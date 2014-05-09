@@ -5,7 +5,7 @@ module Browserinfo
   class GetInfo
 
     def self.process(info)
-      @testing = Browserinfo.new
+      
       content = Hash.new
       if info.include?("Chrome")
         content[:browser] = 'Chrome'
