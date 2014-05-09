@@ -1,15 +1,11 @@
 require "browserinfo/version"
 
-class Browserinfo
+module Browserinfo
   # Your code goes here...
-  
+  class GetInfo
 
-  	def initialize
-  		@tagger = Browserinfo.new
-    end
-  	
     def process(info)
-      @testing = Browserinfo.new
+      
       content = Hash.new
       if info.include?("Chrome")
         content[:browser] = 'Chrome'
@@ -24,6 +20,6 @@ class Browserinfo
       end
 
     end
-  
+  end
 
 end
