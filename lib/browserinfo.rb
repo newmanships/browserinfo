@@ -1,8 +1,8 @@
 require "browserinfo/version"
 
-module Browserinfo
+class Browserinfo
   # Your code goes here...
-  class Browserinfo
+  
 
   	def initialize
   		@tagger = Browserinfo.new
@@ -24,6 +24,6 @@ module Browserinfo
       end
 
     end
-  end  
+  
 
 end
