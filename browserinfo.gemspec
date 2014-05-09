@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jesse Newman"]
   spec.email         = ["newman.jesse@gmail.com"]
   spec.summary       = %q{Create a way to parse and print visitors browser info.}
-  spec.description   = %q{Simply seeing what things I can collect on a user and easily print.}}
+  spec.description   = %q{Simply seeing what things I can collect on a user and easily print.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
