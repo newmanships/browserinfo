@@ -15,8 +15,8 @@ module Browserinfo
       content[:browser] = 'Internet Explorer'
     elif
       content[:browser] = 'Not recognized'
+    end
 
-    
   end  
 
 end
