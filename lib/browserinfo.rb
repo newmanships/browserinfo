@@ -2,7 +2,7 @@ require "browserinfo/version"
 
 module Browserinfo
   # Your code goes here...
-  class binfo
+  class Browserinfo
   	
     def process(info)
       content = Hash.new
